@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shibasuke Love Letter 💌</title>
+<link rel="icon" href="asset/thumbnails/shiba-letter.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<span class="stamp stamp-tl">shibasuke diary</span>
+<span class="stamp stamp-br">i miss you</span>
+
+ <!-- Confetti Container -->
+ <canvas id="confetti-canvas"></canvas>
+
+ <div class="container">
+     <!-- Header -->
+     <div class="header">
+         <img src="asset/thumbnails/stackoverflow-logo.png" alt="Stack Overflow" class="logo"> <h1 class="subtitle">says this question's been asked before</h1>
+     </div>
+
+     
+     <h2 class="main-text">but only <span class="you">YOU</span> can answer it...</h2>
+
+     <!-- Question -->
+     <div class="question">
+         <span class="question-text">
+             <em>Will you be my</em> <span class="valentine">Valentine</span>?
+         </span>
+     </div>
+
+     <!-- Buttons -->
+     <div class="buttons">
+         <button id="no-btn" class="btn btn-no">No</button>
+         <button id="yes-btn" class="btn btn-yes">Yes!</button>
+     </div>
+ </div>
+
+
+<div id="canvas"></div>
+
+<!-- FLOATY MODAL -->
+<div id="modal">
+  <div id="modal-inner">
+    <button id="modal-close">✕</button>
+    <div id="modal-content"></div>
+    <span id="modal-label"></span>
+  </div>
+</div>
+
+<!-- VALENTINE MODAL (for Yes/No question) -->
+<div id="image-modal" class="valentine-modal">
+  <div class="valentine-modal-content">
+      <img id="modal-image" src="" alt="Valentine Image">
+  </div>
+</div>
+
+<!-- Music Player -->
+    <div class="music-player">
+      <audio id="background-music" loop>
+          <source src="carly-music.mp3" type="audio/mpeg">
+      </audio>
+      <button id="music-toggle" class="music-btn">
+          <span class="play-icon">🔊</span>
+      </button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
