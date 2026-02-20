@@ -148,7 +148,7 @@ const MEDIA_ITEMS = [
     id: 10,
     type: 'video',
     thumbnail: 'asset/thumbnails/rock1.png',    // climbing
-    src: 'asset/full-asset/rock2.mov',
+    src: 'asset/full-asset/rock1.mp4',
     label: 'wall hugging for 5 mins'
   },
   {
@@ -162,7 +162,7 @@ const MEDIA_ITEMS = [
     id: 12,
     type: 'video',
     thumbnail: 'asset/thumbnails/mountain-goat.png',    //  mountain goat failed
-    src: 'asset/full-asset/mountain-goat.mov',
+    src: 'asset/full-asset/mountain-goat.mp4',
     label: 'mountain goat failed'
   },
   {
@@ -176,7 +176,7 @@ const MEDIA_ITEMS = [
     id: 14,
     type: 'video',
     thumbnail: 'asset/thumbnails/liver.png',    //  liver
-    src: 'asset/full-asset/raw-beef.mov',
+    src: 'asset/full-asset/raw-beef.mp4',
     label: 'raw liver ewww'
   },
   {
